@@ -57,3 +57,25 @@ ln -s ./konata ~/.local/share/fcitx5/themes/
 ln -s ./minami ~/.local/share/fcitx5/themes/
 ln -s ./misao ~/.local/share/fcitx5/themes/
 ```
+
+## 客制化
+
+如果你喜欢其他颜色，那么大可以先修改 `preview.svg` 试验试验，然后直接复制其中的一个文件夹，然后修改以下内容：
+
+### background.svg
+
+修改两个 `<path />` 元素的 `style` 的 `fill` 颜色，分别是下半的颜色和上半的颜色。
+
+### candidate.svg
+
+修改 `<path />` 元素的 `sytle` 的 `fill` 颜色。是「当前选中的选项」的背景色。
+
+### theme.conf
+
+修改第 6 行 `Name` 成你喜欢的名字。
+
+修改第 10 行 `Author` 作者名字。
+
+修改第 12 行 `Description` 描述。
+
+修改第 16 行 `NormalColor` 文字颜色。
