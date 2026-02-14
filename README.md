@@ -45,10 +45,10 @@ git clone https://github.com/passthem/fcitx5-theme-pt-cute-light.git
 ```bash
 # 方法1 复制
 cd fcitx5-theme-pt-cute-light
-cp ./kagami ~/.local/share/fcitx5/themes/
-cp ./konata ~/.local/share/fcitx5/themes/
-cp ./minami ~/.local/share/fcitx5/themes/
-cp ./misao ~/.local/share/fcitx5/themes/
+cp -r ./kagami ~/.local/share/fcitx5/themes/
+cp -r ./konata ~/.local/share/fcitx5/themes/
+cp -r ./minami ~/.local/share/fcitx5/themes/
+cp -r ./misao ~/.local/share/fcitx5/themes/
 
 # 方法2 建立软链接
 cd fcitx5-theme-pt-cute-light
